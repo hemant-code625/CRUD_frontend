@@ -1,0 +1,17 @@
+.not-found-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .not-found-content {
+    text-align: center;
+  }
+  
+  .not-found-image {
+    width: 300px;
+    border-radius: 8px;
+    margin: 20px;
+  }
+  

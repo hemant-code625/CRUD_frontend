@@ -1,0 +1,87 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.form{
+  display: grid;
+  align-items: center;
+  justify-items: center;
+
+}
+.input-field{
+  width: 200px;
+  height: 23px;
+  border-radius: 8px;
+  
+}
+
+.action-btn{
+    display: flex;
+    margin-left: 1rem;
+    cursor: pointer;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.edit:hover{
+  background-color: #4c56af;
+  color: #fff;
+}
+.delete:hover{
+  background-color: #f44336;
+  color: #fff;
+}
+.edit {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  width: 58px;
+  height: 27px;
+  border-radius: 18px;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+.delete {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  width: 58px;
+  height: 27px;
+  border-radius: 18px;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+.table{
+  margin-top: 2rem;
+  width: 100%;
+  border-collapse: collapse;
+}
+.table th{
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 1rem;
+}
+.table td{
+  padding: 1rem;
+  border-bottom: 1px solid #000;
+}
+
+.table td:nth-child(1) { /* Name column */
+  text-align: left;
+}
+
+.table td:nth-child(2) { /* PRN column */
+  text-align: center;
+}
+
+.table td:nth-child(3) { /* Batch column */
+  text-align: center;
+}
+
+
